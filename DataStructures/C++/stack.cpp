@@ -41,5 +41,8 @@ int popElement(){
         cout<<"the number of elements in this array are: "<<x<<endl;
         x--;
     }
+    for(int j = 0; j < x; j++){
+        cout<<arr1[j];
+    }
     return 0;
 }
