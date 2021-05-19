@@ -1,0 +1,2 @@
+cpp=> compile{g++ <filename>}; run{./a.out}
+java=> compile{javac <filename>}; run{java <filename w/o extension>}
