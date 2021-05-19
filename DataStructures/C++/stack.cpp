@@ -3,7 +3,7 @@ using namespace std;
 
 int pushingElement(int x);
 
-int arr1[5];
+vector<int>arr1(5);
 int i = 0;
 
 int main(){
@@ -11,15 +11,19 @@ int main(){
     pushingElement(4);
     pushingElement(3);
     pushingElement(2);
+    for(int j = 0; j < 5; j++){
+        cout<<arr1[j]<<endl;
+    }
     return 0;
 }
 
 int pushingElement(int x){
-    arr1[i] = x;
-    i++;
-
-    for(int j = 0; j < 5; j++){
-        cout<<arr1[j]<<endl;
+    if(i > 4){
+        cout<<"cannot be added"<<endl;
+    }
+    else{
+        arr1[i] = x;
+        i++;
     }
     return 0;
 }
