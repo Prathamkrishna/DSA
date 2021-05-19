@@ -3,8 +3,8 @@ using namespace std;
 
 class Stacks{
     public:
-    int arr1[20];
-    // vector<int>arr1
+    // int arr1[20];
+    vector<int>arr1 = vector<int>(20);
     int topmost = 0;
 
     int pushingElement(int y){  
@@ -30,9 +30,6 @@ int main(){
     s.pushingElement(4);
     s.pushingElement(3);
     s.pushingElement(2);
-    // for(int j = 0; j < 5; j++){
-    //     cout<<arr1[j]<<endl;
-    // }
     s.popElement();
     s.popElement();
     return 0;
