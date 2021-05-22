@@ -1,8 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-//add push/pop, last is tail and first is head
-
 class Node{
     public:
     int value;
