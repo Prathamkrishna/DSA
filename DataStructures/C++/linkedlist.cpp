@@ -1,13 +1,15 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-class LinkedList{
+//add push/pop, last is tail and first is head
+
+class Node{
     public:
     int value;
-    LinkedList* next;
+    Node* next;
 };
 
-int printingValues(LinkedList* n){
+int printingValues(Node* n){
     while (n != NULL){
         cout<<n->value<<" ";
         n = n->next;
@@ -16,15 +18,15 @@ int printingValues(LinkedList* n){
 }
 
 int main(){
-    LinkedList* first = NULL;
-    LinkedList* second = NULL;
-    LinkedList* third = NULL;
+    Node* first = NULL;
+    Node* second = NULL;
+    Node* tail = NULL;
 
     //we declared above: pointers which point to nothing(hence NULL)
 
-    first = new LinkedList();
-    second = new LinkedList();
-    third = new LinkedList();
+    first = new Node();
+    second = new Node();
+    tail = new Node();
 
     //we are creating objects in the class LinkedList
 
@@ -34,12 +36,12 @@ int main(){
     //we declared first object with it's value equal to 3 and pointer pointing to the second
 
     second->value = 5;
-    second->next = third;
+    second->next = tail;
 
     //we declared second object with it's value equal to 5 and pointer pointing the third
 
-    third->value = 7;
-    third->next = NULL;
+    tail->value = 7;
+    tail->next = NULL;
 
     // we declared third object with it's value equal to 7 and pointer still pointing to NULL
 
