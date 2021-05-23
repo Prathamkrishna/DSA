@@ -1,11 +1,12 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+int size = 0;
+
 class Queue{
     public:
     int front, rear;
-    int size = 0;
-    vector<int>arr1;
+    vector<int>arr1 = vector<int>(20);
     Queue* next;
 
     int pushingElements(int y){
