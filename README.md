@@ -19,3 +19,10 @@ The commands to run the Java code:
 -> Compile the Java code using '**javac _filename_**'.
 
 -> Run the Java code using '**java _filename(without '.java' extension)_**'.
+
+### Here's a list of Various Data Structures and Algorithms in this repository
+
+-> Data Structures:
+   - <a href="https://github.com/Prathamkrishna/DSA/blob/master/DataStructures/C%2B%2B/stack.cpp">Stack</a>
+
+
