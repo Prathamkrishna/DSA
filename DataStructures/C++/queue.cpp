@@ -9,19 +9,19 @@ class Queue{
     vector<int>arr1 = vector<int>(20);
     Queue* next;
 
-    int pushingElements(int y){
+    void pushingElements(int y){
         arr1[size] = y;
-        rear = y;
+        // rear = y;
         size++;
         printing();
-        return 0;
+        // return 0;
     }
     void printing(){
         for(int i = 0; i < size; i++){
             cout<<arr1[i];
         }
         cout<<" "<<endl;
-        cout<<size;
+        cout<<size<<endl;
     }
 };
 
@@ -31,14 +31,14 @@ int main(){
     Queue* third = NULL;
 
     first = new Queue();
-    second = new Queue();
-    third = new Queue();
+    // second = new Queue();
+    // third = new Queue();
 
     first->pushingElements(3);
     first->next = second;
     
     second->pushingElements(4);
-    second->next = third;
+    second->next = NULL;
 
     third->pushingElements(5);
     third->next = NULL;
