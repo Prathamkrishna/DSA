@@ -47,7 +47,7 @@ class preorderpostorderinorderbinarytree {
         tree.root.left.left = new node(6);
         tree.root.left.right = new node(7);
 
-        tree.printPreorder();
+        tree.printPreorder();   
         tree.printInorder();
         tree.printPostorder();
     }
