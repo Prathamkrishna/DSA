@@ -37,6 +37,6 @@ The commands to run the Java code:
    - C++
      - <a href="https://github.com/Prathamkrishna/DSA/blob/master/Algorithms/C%2B%2B/preorder_postorder_inorder_binarytree.cpp">PreOrder, PostOrder and InOrder for binary tree</a>
    - Java
-     <a href="https://github.com/Prathamkrishna/DSA/blob/master/Algorithms/Java/preorderpostorderinorderbinarytree.java">PreOrder, PostOrder and InOrder for binary tree</a>
+     - <a href="https://github.com/Prathamkrishna/DSA/blob/master/Algorithms/Java/preorderpostorderinorderbinarytree.java">PreOrder, PostOrder and InOrder for binary tree</a>
 
 
