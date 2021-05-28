@@ -23,6 +23,10 @@ The commands to run the Java code:
 ### Here's a list of Various Data Structures and Algorithms in this repository
 
 -> Data Structures:
-   - <a href="https://github.com/Prathamkrishna/DSA/blob/master/DataStructures/C%2B%2B/stack.cpp">Stack</a>
+   - C++
+     - <a href="https://github.com/Prathamkrishna/DSA/blob/master/DataStructures/C%2B%2B/stack.cpp">Stack</a>
+     - <a href="https://github.com/Prathamkrishna/DSA/blob/master/DataStructures/C%2B%2B/queue.cpp">Queue</a>
+     - <a href="https://github.com/Prathamkrishna/DSA/blob/master/DataStructures/C%2B%2B/linkedlist.cpp">Linked List</a>
+     - <a href="https://github.com/Prathamkrishna/DSA/blob/master/DataStructures/C%2B%2B/binarytree.cpp">Binary Tree</a>
 
 
