@@ -1,6 +1,6 @@
 # Data Structures and Algorithmic code for C++ and Java.
 
-If using this repository, do [install MinGW](https://www.ics.uci.edu/~pattis/common/handouts/mingweclipse/mingw.html) to run c++ code on your system and install the JRE to run the java code.
+If using this repository, do [install MinGW](http://mingw-w64.org/doku.php) to run c++ code on your system and install the JRE to run the java code.
 
 **Note that Linux comes installed with minGW/C++ compiler**
 
