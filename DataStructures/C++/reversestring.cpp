@@ -2,18 +2,25 @@
 using namespace std;
 
 int main(){
-    stack<string> givenstring;
+    stack<char> givenstring;
     stack<string> reversedstring;
 
-    givenstring.push("a");
-    givenstring.push("b");
-    givenstring.push("c");
-    givenstring.push("d");
-    givenstring.push("e");
+    givenstring.push('a');
+    givenstring.push('b');
+    givenstring.push('c');
+    givenstring.push('d');
+    givenstring.push('e');
 
     while(!givenstring.empty()){
-        string i = givenstring.top();
-        reversedstring.push(i);
+        cout<<givenstring.top();
+        givenstring.pop();
+    }
+
+    cout<<""<<endl;
+
+    while(!givenstring.empty()){
+        char i = givenstring.top();
+        reversedstring.push("i");
         givenstring.pop();
     }
 
