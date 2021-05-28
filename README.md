@@ -28,5 +28,15 @@ The commands to run the Java code:
      - <a href="https://github.com/Prathamkrishna/DSA/blob/master/DataStructures/C%2B%2B/queue.cpp">Queue</a>
      - <a href="https://github.com/Prathamkrishna/DSA/blob/master/DataStructures/C%2B%2B/linkedlist.cpp">Linked List</a>
      - <a href="https://github.com/Prathamkrishna/DSA/blob/master/DataStructures/C%2B%2B/binarytree.cpp">Binary Tree</a>
+   - Java
+     - <a href="https://github.com/Prathamkrishna/DSA/blob/master/DataStructures/Java/stack.java">Stack</a>
+     - <a href="https://github.com/Prathamkrishna/DSA/blob/master/DataStructures/Java/linkedlist.java">Linked List</a>
+     - <a href="https://github.com/Prathamkrishna/DSA/blob/master/DataStructures/Java/binarytree.java">Binary Tree</a>
+ 
+-> Algorithms:
+   - C++
+     - <a href="https://github.com/Prathamkrishna/DSA/blob/master/Algorithms/C%2B%2B/preorder_postorder_inorder_binarytree.cpp">PreOrder, PostOrder and InOrder for binary tree</a>
+   - Java
+     <a href="https://github.com/Prathamkrishna/DSA/blob/master/Algorithms/Java/preorderpostorderinorderbinarytree.java">PreOrder, PostOrder and InOrder for binary tree</a>
 
 
