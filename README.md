@@ -1,4 +1,4 @@
-###Data Structures and Alogrithmic code for C++ and Java.
+### Data Structures and Alogrithmic code for C++ and Java.
 
 If using this repository, do install minGW to run c++ code on your system and install the JRE to run the java code.
 
