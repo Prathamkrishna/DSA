@@ -3,7 +3,6 @@ using namespace std;
 
 class Stacks{
     public:
-    // int arr1[20];
     vector<int>arr1 = vector<int>(20);
     int topmost = 0;
 
